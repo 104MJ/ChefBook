@@ -13,9 +13,15 @@ export default [
             "300ml de lait",
             "1 pincée de sel",
         ],
+        etapes: [
+            "Mélanger la farine, le sucre et la levure.",
+            "Ajouter les oeufs et mélanger.",
+            "Verser le lait progressivement en fouettant.",
+            "Faire cuire dans une poêle beurrée."
+        ]
     },
     {
-        id: "1",
+        id: "2",
         title: "Spaghetti Carbonara",
         temps_preparation: "20 min",
         difficulte: "Facile",
@@ -28,9 +34,15 @@ export default [
             "1 gousse d'ail",
             "Poivre",
         ],
+        etapes: [
+            "Cuire les pâtes dans l'eau bouillante.",
+            "Faire revenir les lardons avec l'ail.",
+            "Mélanger les jaunes d'oeufs et le parmesan.",
+            "Mélanger le tout avec un peu d'eau de cuisson."
+        ]
     },
     {
-        id: "2",
+        id: "3",
         title: "Salade César",
         temps_preparation: "15 min",
         difficulte: "Facile",
@@ -42,9 +54,15 @@ export default [
             "Croûtons",
             "Sauce César",
         ],
+        etapes: [
+            "Laver et couper la laitue.",
+            "Couper le poulet en lamelles.",
+            "Mélanger le tout avec la sauce et les croûtons.",
+            "Parsemer de copeaux de parmesan."
+        ]
     },
     {
-        id: "3",
+        id: "4",
         title: "Omelette au fromage",
         temps_preparation: "10 min",
         difficulte: "Très facile",
@@ -56,9 +74,15 @@ export default [
             "Sel",
             "Poivre",
         ],
+        etapes: [
+            "Battre les oeufs en omelette.",
+            "Ajouter le sel, le poivre et le fromage.",
+            "Faire fondre le beurre dans une poêle.",
+            "Verser les oeufs et cuire à votre convenance."
+        ]
     },
     {
-        id: "4",
+        id: "5",
         title: "Brownies au chocolat",
         temps_preparation: "30 min",
         difficulte: "Moyen",
@@ -71,5 +95,33 @@ export default [
             "100g de farine",
             "1 pincée de sel",
         ],
+        etapes: [
+            "Faire fondre le chocolat et le beurre.",
+            "Ajouter le sucre puis les oeufs un par un.",
+            "Incorporer la farine et le sel.",
+            "Cuire 20-25 min à 180°C."
+        ]
+    },
+    {
+        id: "6",
+        title: "Quiche Lorraine",
+        temps_preparation: "45 min",
+        difficulte: "Moyen",
+        image: "https://images.unsplash.com/photo-1478004521390-655bd10c9f43?auto=format&fit=crop&q=80&w=1000",
+        ingredients: [
+            "1 pâte brisée",
+            "200g de lardons",
+            "3 oeufs",
+            "20cl de crème fraîche",
+            "100g de fromage râpé",
+            "Noix de muscade"
+        ],
+        etapes: [
+            "Préchauffer le four à 180°C.",
+            "Étaler la pâte dans un moule.",
+            "Faire dorer les lardons.",
+            "Mélanger oeufs, crème, fromage et muscade.",
+            "Verser le tout sur la pâte et cuire 30 min."
+        ]
     }
 ]

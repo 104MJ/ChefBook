@@ -5,4 +5,5 @@ export interface Recette {
     difficulte: string;
     image: string;
     ingredients: string[];
+    etapes: string[];
 }
